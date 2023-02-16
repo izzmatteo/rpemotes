@@ -6,7 +6,7 @@ Config = {
     -- Thank you to those who provided translations.
     -- If you would like to provide translations or help fix them, join our Discord!
     -- Check languages code below to change the MenuLanguage
-    MenuLanguage = 'en',
+    MenuLanguage = 'de',
     -- Set this to true to enable some extra prints
     DebugDisplay = false,
     -- Set this to false if you have something else on X, and then just use /e c to cancel emotes.
@@ -18,7 +18,7 @@ Config = {
     AllowedInCars = true,
     -- You can disable the menu here / change the keybind. It is currently set to F5
     MenuKeybindEnabled = true,
-    MenuKeybind = 'f4', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    MenuKeybind = 'f7', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can disable the Favorite emote keybinding here.
     FavKeybindEnabled = true,
     FavKeybind = 'capital', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
@@ -26,7 +26,7 @@ Config = {
     -- Use a 512 x 128 image!
     -- Note this might cause an issue of the image getting stuck on peoples screens
     CustomMenuEnabled = true,
-    MenuImage = "https://i.giphy.com/media/zpKIWAzNO9IhYwEGkN/giphy.gif", ----[Custom banner IMGUR or GIPHY URLs go here ]---
+    MenuImage = "https://i.imgur.com/NeRuuHf.png", ----[Custom banner IMGUR or GIPHY URLs go here ]---
     -- You can change the menu image by pasting a link above. It must be the same width and length
     -- You can change the name of the menu here or leave it blank to remove the text in front of the custom banners
     MenuTitle = "",
@@ -62,14 +62,14 @@ Config = {
     -- Used to enable or disable the search feature in the menu.
     Search = true,
     -- You can disable the handsup here / change the keybind. It is currently set to H
-    HandsupKeybindEnabled = false,
+    HandsupKeybindEnabled = true,
     HandsupKeybind = 'h', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can disable the fingrer pointing here / change the keybind. It is currently set to B
-    PointingEnabled = false,
+    PointingEnabled = true,
     PointingKeybindEnabled = true,
     PointingKeybind = 'b', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- If crouching should be enabled.
-    CrouchEnabled = true,
+    CrouchEnabled = false,
     CrouchKeybindEnabled = true, -- If true, crouching will use keybinds.
     CrouchKeybind = 'lcontrol', -- The default crouch keybind, get the button string here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     CrouchOverride = false, -- If true, you won't enter stealth mode even if the crouch key and the "duck" key are the same.
@@ -78,7 +78,7 @@ Config = {
     CrawlKeybindEnabled = true, -- If true, crawling will use keybinds.
     CrawlKeybind = 'rcontrol', -- The default crawl keybind, get the button string here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- Check for updates
-	CheckForUpdates = true,
+	CheckForUpdates = false,
 }
 
 Config.KeybindKeys = {
